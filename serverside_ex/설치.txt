@@ -1,0 +1,17 @@
+1. webpack 설치
+npm install --save webpack -cli
+2. react 설치
+npm install --save react react-dom
+3. 4. babel-loader 설치
+npm install --save-dev babel-loader @babel/core @babel/preset-env @babel/preset-react
+5. babel 설정을 위한 파일 생성
+.babelrc
+6. webpack 에서 사용할 파일 생성
+webpack.config.js
+7. public ,src 폴더 생성
+App.js, browser.js 생성
+8. webpack을 실행 후 public 폴더에 bundle.js 생성되었는지 확인한다.
+npm run webpack
+
+
+
